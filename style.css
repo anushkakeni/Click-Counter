@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+   
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0px auto;
+        background-color: white;
+    }
+
+
+
+.mainBox{
+    height: 400px;
+      width:450px;
+        margin: 0px auto;
+        border: 2px solid black;
+        background-color: aquamarine;
+        
+       
+}
+
+.counterBox {
+    
+     height: 320px;
+      width:395px;
+      margin: 0px auto;
+      display: flex;
+      flex-direction: column;
+       border: 2px solid black;
+        justify-content: center; 
+        align-items: center;
+        
+
+        background-color: rgb(215, 221, 149)
+    }
+
+
+ .mainBox h2{
+    
+    margin-left: 3px;
+    margin-bottom: 10px;
+ }   
+
+ .mainBox p{
+    
+    margin-left: 3px;
+ }   
+
+.counterBox input{ 
+    width:320px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-size: x-large;
+    background-color: white;
+    
+        
+    border: 2px solid black;
+}
+
+.counterBox div button { 
+    width:320px;
+    height: 45px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+/*.box-1 { 
+    background-color: aquamarine;
+}*/
+
+

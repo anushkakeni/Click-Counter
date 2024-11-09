@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<div class="mainBox" >
+
+    <h2>Click  counter</h2>
+
+    <p>Click counter online click '+' button or space to count</p>
+
+
+        <div class="counterBox"> 
+         
+            <div >
+                <input type="number" id="input-value" value="0" min="0" >
+            </div>
+
+            <div>
+                 <button  id="addBtn" onclick="addClick()"  style="background-color: green;">+</button>
+            </div>
+            <div >
+                <button id="subBtn" onclick="subClick()" style="background-color: gray;">-</button>
+            </div>
+                
+        </div>
+
+</div>
+    
+     <script src="click.js">
+     </script>   
+</body>
+</html>
